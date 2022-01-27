@@ -1,5 +1,9 @@
 """The central program that ties all the modules together."""
 
+import os
+
+os.add_dll_directory("C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin")
+
 import time
 from bot import Bot
 from capture import Capture
